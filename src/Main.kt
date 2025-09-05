@@ -26,7 +26,10 @@ fun main() {
                 ex03()
                 break
             }
-            4 -> println("Encerrando programa...")
+            4 -> {
+                println("Encerrando programa...")
+                break
+            }
             else -> println("Opção inválida")
         }
 
